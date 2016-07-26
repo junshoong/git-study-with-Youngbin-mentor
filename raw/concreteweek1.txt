@@ -1,0 +1,141 @@
+﻿1.로컬
+
+-git 저장소내부
+
+
+
+
+
+
+
+
+
+
+-작업하기
+1.커밋하기
+
+git commit
+
+커밋하기(커밋 메시지를 옵션으로 주어 바로 커밋)
+
+git commit -m “commit-message”
+
+인덱스 건너뛰고 변경된 파일 모두 커밋하기
+
+git commit -a
+
+커밋 기록 보기
+
+git log
+
+커밋 취소하기
+git reset --soft HEAD^
+
+2.인덱스작업
+
+특정 파일에 대한 변경사항을 인덱스로
+
+git add “name-of-file”
+
+모든 파일에 대한 새로운 변경사항을 인덱스로
+
+git add .
+
+
+3.상태확인
+
+변경사항 비교하기
+
+git diff 변경사항체크
+
+가장 최근 커밋 ~ 가장 최근 커밋 이후 수정 되었으나 Index에 추가되지 않은 파일
+
+git diff [--options] [--] [<path>...]
+
+
+git dif --cached
+
+git diff [--options] --cached [<commit>] [--] [<path>...]
+
+가장 최근 커밋 ~ Index에 추가된 파일
+
+git dif <commit>
+
+git diff [--options] <commit> [--] [<path>...]
+
+<commit> ~ 가장 최근 커밋 이후 수정 되었으나 Index에 추가되지 않은 파일
+
+단어 단위로 비교하기
+
+--word-diff : 변경된 단어에 [-...-], {+...+} 를 감싸서 표시
+
+--word-diff=color ( --color-words 와 동일) : 변경된 단어를 색상으로만 표시
+
+커밋 로그 변경 내역까지 같이 보기
+
+git log -p
+
+커밋 로그가 나오는데, 각 커밋미다 diff 내용까지 같이 나옴.
+
+작업 디렉터리 상태 표시
+
+git status
+
+인덱스에서 빼기
+
+git reset HEAD “path/to/file”
+
+
+4. 되돌리기
+
+--amend 옵션을 사용하여 가장 최근 커밋을 수정할 수 있음.
+
+git checkout master : 작업 디렉터리를 master 브랜치의 가장 최근 시점으로
+
+git checkout <commit> <file> : <file>을 <commit> 시점의 상태로
+
+git checkout <commit> : 작업 디렉터리를 <commit> 시점의 상태로
+
+git reset <file> : Index 에서 <file> 만 제외
+
+git reset : Index 에 있는 모든 파일 제외
+
+git reset <commit> : 가장 최근 커밋에서, <commit> 직전 까지의 커밋 모두 제거
+
+git reset ORID_HEAD : reset 직전으로 되돌리기
+
+→ --hard 옵션이 없으므로, 작업 디렉터리 상태는 그대로 유지됨.
+
+git reset --hard : 작업 디렉터리 상태를 가장 최근 커밋 시점으로
+
+git reset --hard <commit> : 가장 최근 커밋부터 <commit> 까지의 커밋 삭제,
+
+그리고 작업 디렉터리 상태를 <commit> 바로 전 커밋의 시점으로
+
+git reset --hard ORIG_HEAD : reset 직전으로 되돌리기
+
+→ --hard 옵션 사용시, 작업 디렉터리 상태까지 지정한 커밋 시점 상태로 바뀜.
+
+git revert <commit>
+
+<commit> 과 완전히 반대되는 내용의 커밋을 새로 생성함
+
+
+
+
+5.가지
+
+
+-가지만들기, 갈아타기
+
+-가지 변경하기
+
+-가지 병합하기
+
+-가지 삭제하기
+
+-꼬리표 달기
+
+
+
+
