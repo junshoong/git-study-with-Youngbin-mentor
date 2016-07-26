@@ -1,16 +1,16 @@
-# **git study with youngbin mentor**
+ï»¿# **git study with youngbin mentor**
 
-**¼³¸í**
-git »ç¿ë¹ýÀ» ÀÍÈ÷±â À§ÇÑ ½ºÅÍµð
+**ì„¤ëª…**  
+git ì‚¬ìš©ë²•ì„ ìµížˆê¸° ìœ„í•œ ìŠ¤í„°ë””
 
-**½ºÅÍµð Âü¿©ÀÚ** 
-¼­Á¤¿À, ±èÁØ¼ö, °í´Ù°æ,  ¹ÚÁ¤¹Î
+**ìŠ¤í„°ë”” ì°¸ì—¬ìž**  
+ì„œì •ì˜¤, ê¹€ì¤€ìˆ˜, ê³ ë‹¤ê²½,  ë°•ì •ë¯¼
 
-**ÂüµÈ ½º½Â**  
-ÇÑ¿µºó
+**ì°¸ëœ ìŠ¤ìŠ¹**  
+í•œì˜ë¹ˆ
 
-**±â°£** 
-07.05 ~ 07.26 (4ÁÖ)
+**ê¸°ê°„**  
+07.05 ~ 07.26 (4ì£¼)
 
-**È¨ÆäÀÌÁö** 
+**í™ˆíŽ˜ì´ì§€**  
  <https://vaporize93.github.io/git-study-with-Youngbin-mentor/>
