@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<meta charset='utf-8' />
+<style>
+	#nav_menu ul {
+		list-style-type:none;
+		/* 좌측 여백 없애기 */
+		padding-left:0px;
+		/* 우측 정렬 하기 */
+		float:right;
+	}
+	#nav_menu ul li {
+		display:inline;
+		border-left: 1px solid #c0c0c0;
+		/* 테두리와 메뉴 간격 벌리기. padding: 위 오른쪽 아래 왼쪽; */
+		padding: 0px 10px 0px 10px;
+		/* 메뉴와 테두리 사이 간격 벌리기. margin: 위 오른쪽 아래 왼쪽; */
+		margin: 5px 0px 5px 0px;
+	}
+	#nav_menu ul li:first-child {
+		border-left: none;
+	}
+</style>
+
+<div id="nav_menu">
+	<ul>
+		<li>메뉴 1</li>
+		<li>메뉴 2</li>
+		<li>메뉴 3</li>
+		<li>메뉴 4</li>
+		<li>메뉴 5</li>
+	</ul>
+</div>
