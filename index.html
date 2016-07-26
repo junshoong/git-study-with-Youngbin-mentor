@@ -8,6 +8,10 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 
 <body>
@@ -39,7 +43,7 @@
         <h2>1. 커밋하기</h2>
         <p>git commit</p>
         <p>커밋하기(커밋 메시지를 옵션으로 주어 바로 커밋)</p>
-        <p>git commit -m “commit-message”</p>
+        <pre><code class="bash">git commit -m “commit-message”</code></pre>
         <p>인덱스 건너뛰고 변경된 파일 모두 커밋하기</p>
 
         <p>git commit -a</p>
